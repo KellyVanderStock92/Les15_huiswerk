@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+    padding: 5px;
+	font-family: "Saira Condensed", sans-serif;
+	background-color: #f7ebe7;
+	color: #436e6f;
+}
+
+header,
+footer {
+	height: 75px;
+	padding: 15px 5px;
+	background-color: #efd7cf;
+	width: 100%;
+	text-align: center;
+}
+
+ul,
+a {
+	text-decoration: none;
+	color: #00483c;
+}
+
+li {
+	display: inline-block;
+	background-color: #f7ebe7;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+	margin: 15px 30px;
+	border-radius: 4px;
+    
+}
+nav li:hover {
+	background-color: #879693;
+	font-weight: bold;
+}
+nav a:hover {
+	color: #f7ebe7;
+}
+
+#intro {
+	width: 80%;
+	height: auto;
+	min-height: 400px;
+	margin: 20px auto;
+    padding: 5px;
+    
+}
+
+img {
+	width: 30%;
+	min-width: 150px;
+}
+#CV {
+	border-collapse: collapse;
+	width: 80%;
+    min-width: 450px ;
+	margin: 20px auto;
+	background-color: #fcf7f1;
+   
+    
+}
+td,
+th {
+	padding: 5px 6px;
+}
+th {
+	border-bottom: 1px solid #00483c;
+}
+
+#contact{
+	width: 80%;
+    min-width: 400px ;
+    min-height: 300px;
+	margin:20px auto;
+    padding: 5px;
+	background-color: #fcf7f1;
+}
+ #contact input, #contact textarea, #contact button{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: #879693;
+    background-color: #f7ebe7;
+    
+}
+#contact h2{
+    padding: 5px;
+    text-align: center;
+}
+
+#contact textarea{
+    height: 200px;
+    
+}
+#contact button:active{
+    background-color: #879693;
+	font-weight: bold;
+    color: #f7ebe7;
+    
+}
+
+
